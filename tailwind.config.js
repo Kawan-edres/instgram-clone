@@ -15,6 +15,8 @@ module.exports = {
         yellow: "#FFDC80",
         gray: "#efefef",
         buttonBlue: "#0095f6",
+        story:"rgba(0, 0, 0, 0.1)"
+        
       },
       screens: {
         sm: { raw: "(max-width: 500px)" },

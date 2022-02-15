@@ -1,0 +1,5 @@
+.story{
+
+    border: 2px solid rgb(254,218,117);
+    background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)); /* Not Working */
+}
