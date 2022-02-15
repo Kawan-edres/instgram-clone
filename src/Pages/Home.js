@@ -2,9 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <section className="w-full h-full flex">
+      <div className="w-[70%]">hello</div> 
+      <div className="w-[30%]">hellooooo</div>
+    </section>
   );
 };
 

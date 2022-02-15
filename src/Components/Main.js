@@ -10,7 +10,7 @@ const Main = () => {
 
   return (
     
-      <main className="h-screen max-w-[1000px] mx-auto mt-16   ">
+      <main className="h-screen max-w-[1000px] mx-auto mt-16    ">
           <Routes location={location}>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/inbox" element={<Inbox />}></Route>
