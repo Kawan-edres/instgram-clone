@@ -4,6 +4,8 @@ import Home from "../Pages/Home";
 import Inbox from "../Pages/Inbox";
 import Posts from "../Pages/Posts";
 import { Routes, Route,  useLocation } from "react-router-dom";
+import MyProfile from "./MyProfile";
+import New from "./New";
 
 const Main = () => {
     const location=useLocation();
@@ -15,9 +17,12 @@ const Main = () => {
             <Route path="/home" element={<Home />}></Route>
             <Route path="/inbox" element={<Inbox />}></Route>
             <Route path="/create/posts" element={<Posts />}></Route>
-
             <Route path="/explore" element={<Explore />}></Route>
             <Route path="/notifications" element={<Notifications />}></Route>
+            <Route path="/myprofile" element={<MyProfile />}></Route>
+            <Route path="/new" element={<New />}></Route>
+
+
           </Routes>
           
         </main>

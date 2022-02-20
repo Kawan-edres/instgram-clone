@@ -9,6 +9,10 @@ import {ReactComponent as ExploreO} from '../Assets/icons/outline/explore.svg'
 import {ReactComponent as ExploreF} from '../Assets/icons/filled/explore.svg'
 import {ReactComponent as NotificationsO} from '../Assets/icons/outline/notifications.svg'
 import {ReactComponent as NotificationsF} from '../Assets/icons/filled/notifications.svg'
+import { Avatar } from "@mui/material";
+import images from "./Images"
+
+
 
 
 
@@ -34,7 +38,7 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
 
     <Link to={to} >
 
-    <div className=' h-full px-3 relative  overflow-hidden'>
+    <div className=' h-full  px-3 relative  overflow-hidden'>
           {/* badge notifications */}
       <div className={badge && badge > 0 ? `flex justify-center items-center text-[9px] min-w-[16px] h-[16px] bg-red-500 right-1 top-0  absolute rounded-full border-white border text-white`:'hidden'}>
                 <span>{badge}</span>
@@ -67,9 +71,9 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
     :
     <div>
     { isNavOpen && <ProfileNav />}
-    <button  to={to} onClick={navHandler} className='h-[20px] px-3 relative overflow-visible   '>
-        <div className=''>            
-            {iconName === 'profile' &&  <HomeO className=' fill-black '/>}
+    <button  to={to} onClick={navHandler} className='h-[22px] px-3 relative overflow-visible   '>
+        <div className=' '>            
+            {<Avatar src={images[0]} sx={{ width: 26, height: 26 }} className=' overflow-hidden'/>}
 
         </div>
     </button>
