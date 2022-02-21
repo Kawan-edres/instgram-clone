@@ -50,11 +50,11 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
       
       {iconName==="home" && !match &&<HomeO className="fill-black" />}
       {iconName==="home" && match &&<HomeF className="fill-black" />}
-      
-
+    
       {iconName==="inbox" && !match &&<InboxO className="fill-black" />}
       {iconName==="inbox" && match &&<InboxF className="fill-black" />}
-
+ 
+ 
       {iconName==="posts" && !match &&<PostsO className="fill-black" />}
       {iconName==="posts" && match &&<PostsF className="fill-black" />}
 

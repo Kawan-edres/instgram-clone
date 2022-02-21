@@ -7,7 +7,7 @@ const Header = () => {
   
   return (
     <header className=" shadow-sm border-b border-mGray  h-16 mt-0 overflow-visible  fixed top-0 left-0 right-0 z-10 bg-white    ">
-    <nav className=" max-w-[1000px] mt-4 mx-auto flex	 justify-between items-center h-10  ">
+    <nav className=" max-w-[1000px] mt-4 mx-auto flex	 justify-between items-center h-10 sm:w-[80git ]  ">
       <div className="h-full  ml-[7px]" >
         <img className="mainLogo h-7 w-27 mt-2 object-contain  cursor-pointer"
           src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"

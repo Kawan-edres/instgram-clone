@@ -20,6 +20,10 @@ const Inbox = () => {
     setIsOpen(!isOpen);
 
   }
+  const clickHandler=()=>{
+    forward("/new")
+
+  }
   return (
     <>
      {isOpen?
@@ -73,7 +77,7 @@ const Inbox = () => {
       <span ><img className="h-[100px] mb-5  " src={images[7]} alt="" /></span>
       <h1 className="text-xl mb-3  ">Your Messages </h1>
       <h6 className="text-gray1 font-normal  mb-4">Send private photos and messages to a friend or group.</h6>
-      <button className="bg-buttonBlue rounded-[5px] px-3 py-1 text-white font-bold">Send Message</button>
+      <button  onClick={clickHandler} className="bg-buttonBlue rounded-[5px] px-3 py-1 text-white font-bold ">Send Message</button>
 
       </div>
 

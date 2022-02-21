@@ -22,6 +22,7 @@ const OverLayInboxItems = () => {
 
     <InboxItems img={images[0]} name="kawan idrees" />
     <input onChange={checkHandler} type="checkbox" className='h-7 w-7 rounded-full'  />
+   
     </div>
   )
 }
