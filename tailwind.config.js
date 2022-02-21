@@ -25,6 +25,7 @@ module.exports = {
         sm2: { raw: "(max-width: 600px)" },
 
         short: { raw: "(max-width: 700px)" },
+        inboxHandler: { raw: "(max-width: 700px)" },
         av:{raw:"(max-width:900px)"},
         thousnd:{raw:"(max-width:1000px)"},
         large:{raw:"(max-width:1200px)"},

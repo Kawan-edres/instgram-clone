@@ -1,4 +1,4 @@
-import { Link, useMatch, useResolvedPath,useLocation } from 'react-router-dom';
+import { NavLink, useMatch, useResolvedPath,useLocation } from 'react-router-dom';
 import {ReactComponent as HomeO} from '../Assets/icons/outline/home.svg'
 import {ReactComponent as HomeF} from '../Assets/icons/filled/home.svg'
 import {ReactComponent as InboxO} from '../Assets/icons/outline/inbox.svg'
@@ -36,7 +36,8 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
     {
       to?
 
-    <Link to={to} >
+   
+    <NavLink to={to} >
 
     <div className=' h-full  px-3 relative  overflow-hidden'>
           {/* badge notifications */}
@@ -46,9 +47,10 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
           {/* dot notification */}
       <div className={dot ? 'w-[5px] h-[5px] left-[21.5px] bottom-0 absolute rounded-full bg-red-500' : 'hidden'}></div>
 
-
+      
       {iconName==="home" && !match &&<HomeO className="fill-black" />}
       {iconName==="home" && match &&<HomeF className="fill-black" />}
+      
 
       {iconName==="inbox" && !match &&<InboxO className="fill-black" />}
       {iconName==="inbox" && match &&<InboxF className="fill-black" />}
@@ -66,7 +68,7 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
   
     </div>
       
-    </Link>
+    </NavLink>
 
     :
     <div>

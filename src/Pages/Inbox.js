@@ -27,7 +27,7 @@ const Inbox = () => {
               :
       
     <div className=" mt-5 h-[88vh] w-[1000px] flex border-mGray border overflow-hidden rounded-[5px] av:w-[100%]    ">
-      {/* right  */}
+      {/* left  */}
       <div className="w-[22rem] h-[88vh] flex flex-col border-r border-mGray  relative cursor-pointer ">
         <div className="text-center border-b border-mGray h-36 flex justify-center items-center">
           <h1>kawan_idrees</h1>
@@ -66,7 +66,7 @@ const Inbox = () => {
 
       </div>
 
-      {/* left */}
+      {/* right */}
       <div className="w-[63%] h-[100vh] text-center  mt-10">
 
       <div className="flex justify-center items-center h-[75vh] w-full flex-col font-thin ">
