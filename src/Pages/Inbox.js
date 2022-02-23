@@ -30,10 +30,10 @@ const Inbox = () => {
      forward("/new")
               :
       
-    <div className=" mt-5 h-[88vh] w-[1000px] flex border-mGray border overflow-hidden rounded-[5px] av:w-[100%]    ">
+    <div className=" !mt-[6rem] h-[90vh] w-[1000px] flex border-mGray border  rounded-[5px] av:w-[100%]    ">
       {/* left  */}
       <div className="w-[22rem] h-[88vh] flex flex-col border-r border-mGray  relative cursor-pointer ">
-        <div className="text-center border-b border-mGray h-36 flex justify-center items-center">
+        <div className="text-center border-b p-4 border-mGray  flex justify-center items-center">
           <h1>kawan_idrees</h1>
           <div className=" ml-3 rotate-180"><Arrow  /></div>
             <div className="absolute right-4">
@@ -44,7 +44,7 @@ const Inbox = () => {
           
         </div>
 
-        <div className="flex-col ">
+        <div className="flex-col overflow-y-scroll  ">
        
         <InboxItems img={images[0]} name="kawan idrees" />
         <InboxItems img={images[1]} name="milad karim"/>

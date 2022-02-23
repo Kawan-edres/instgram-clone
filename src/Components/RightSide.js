@@ -2,11 +2,12 @@ import React from "react";
 import { Avatar } from "@mui/material";
 import { Link } from "react-router-dom";
 import RightBottomSide from "./RightBottomSide";
+import Images from "./Images";
 
 
 const RightSide = () => {
   return (
-    <div className="h-auto flex  flex-col">
+    <div className="h-auto flex  flex-col fixed">
       {/* top */}
 
       <div className="w-full h-[5rem] flex items-center justify-between  ">
@@ -14,7 +15,7 @@ const RightSide = () => {
           <div className="flex">
             <Avatar
               sx={{ width: 60, height: 60 }}
-              src="https://scontent.febl5-2.fna.fbcdn.net/v/t39.30808-6/240423226_1545645172494326_4049829544821431047_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEmiRImZKLfRC1m3TvbKInTTNKEF8IPZ7xM0oQXwg9nvMnwvMsXT7PbUEbGJLg_c7Fwa1QAi6QB0Zk-0vsAUzb-&_nc_ohc=f6UoVouYfcAAX91tcmq&_nc_ht=scontent.febl5-2.fna&oh=00_AT8aZR1YUgE8uACfAVAZ1xeDz1PH5HX5FzFBCM5jECQqSg&oe=62102322"
+              src={Images[0]}
             />
             <div className="flex flex-col ml-3 justify-center">
               <h1 className="text-xl">kawan_idrees</h1>
@@ -53,17 +54,13 @@ const RightSide = () => {
           }
         />
 
-<RightBottomSide
+      <RightBottomSide
           title={"Ahmed Koga"}
-          img={
-            "https://scontent.febl5-1.fna.fbcdn.net/v/t39.30808-6/239339626_872668826978723_4153392156517714549_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHF2IBrHSMxufkPDuGRFBRYrNkyxLvFQ6Gs2TLEu8VDofD4w5WZg_rzkJ7ZWhk8J0yOkkMZeoBIFuFJkFgGTG_m&_nc_ohc=-m06t3xVaSkAX992LO0&_nc_ht=scontent.febl5-1.fna&oh=00_AT85HHpbHypcJEFisH8iXoL0En3CcAI7YtGwlzh14Zt-Tg&oe=6211DF24"
-          }
+          img={Images[5]}
         />
         <RightBottomSide
           title={"Diari Brzo"}
-          img={
-              "https://scontent.febl5-1.fna.fbcdn.net/v/t39.30808-6/244025217_104754895313488_3723176783969441237_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeEe_4i5qyBus3mbQs8H58NnZHGa4IPgD0hkcZrgg-APSFePAsBakIOmp5b7CgMsEmY8VbZjbOAxNqIpXWbvmOAh&_nc_ohc=k-yKLd7J5y4AX8OKAm6&_nc_ht=scontent.febl5-1.fna&oh=00_AT9DFSCKN6PJ9wQl92m2fQGAOfXxXXkeYQSY_XEiAjk1KQ&oe=6212F54E"
-           }
+          img={ Images[6] }
         />
 
         

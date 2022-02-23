@@ -46,13 +46,7 @@ const New = () => {
       <OverLayInboxItems />
       <OverLayInboxItems />
       <OverLayInboxItems />
-      <OverLayInboxItems />
-      <OverLayInboxItems />
-      <OverLayInboxItems />
-      <OverLayInboxItems />
-      <OverLayInboxItems />
-      <OverLayInboxItems />
-      <OverLayInboxItems />
+     
       
 
 
