@@ -1,7 +1,8 @@
 import React from "react";
-import Posts from "../Components/Posts";
+import Post from "../Components/Post";
 import RightSide from "../Components/RightSide";
 import StoryReel from "../Components/StoryReel";
+import Posts from "../Components/Posts";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="w-[65rem] mt-8 ">
         <StoryReel />
         <Posts />
+        
       </div>
 
 

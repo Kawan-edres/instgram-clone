@@ -19,7 +19,7 @@ const RightSide = () => {
             />
             <div className="flex flex-col ml-3 justify-center">
               <h1 className="text-xl">kawan_idrees</h1>
-              <p className="text-mGray ">Kawan Idrees</p>
+              <p className="text-mGray  font-semibold ">Kawan Idrees</p>
             </div>
           </div>
         </Link>
@@ -31,7 +31,7 @@ const RightSide = () => {
 
       <div className="mt-6 ">
         <div className=" mb-1 flex justify-between items-center w-72">
-          <h1 className="text-mGray">Suggestions For You</h1>
+          <h1 className="text-mGray font-bold">Suggestions For You</h1>
           <button className="text-black">See All</button>
         </div>
 

@@ -24,7 +24,7 @@ const RightBottomSide = ({title,img}) => {
           />
           <div className="flex flex-col ml-3 justify-center">
             <p  className="text-sm">{title}</p>
-            <p className='text-sm text-mGray'>Followed by k_salih406</p>
+            <p className='text-sm text-mGray font-semibold'>Followed by k_salih406</p>
           </div>
         </div>
 

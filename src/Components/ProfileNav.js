@@ -31,7 +31,7 @@ function ProfileNav() {
         <div onClick={navHandler} className="w-screen h-screen bg-white/0 fixed top-0 left-0 "></div>
     
 
-        <div className="flex flex-col rounded-lg absolute z-10  mt-12 h-auto w-60 bg-white border-black border-2 shadow-lg
+        <div className="flex flex-col rounded-lg absolute z-10  mt-10 h-auto w-60 bg-white border-gray border shadow-lg
          translate-x-[-180px] cursor-pointer">
 
          {arr.map(item=>{

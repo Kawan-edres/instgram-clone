@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Story from './Story'
 import images from "./Images"
 
+
 const StoryReel = () => {
 
  
@@ -12,7 +13,7 @@ const StoryReel = () => {
    
     
    
-  <div   className=' shadow-story cursor-pointer border-gray border shadow-lg h-[7.5] w-[38rem] flex  items-center overflow-x-hidden thousnd:ml-10  '>
+  <div   className=' shadow-story cursor-pointer border-gray border shadow-lg h-[7.5] w-[38rem] flex  items-center overflow-x-scroll thousnd:ml-10  '>
   
 
     <Story
@@ -32,24 +33,69 @@ const StoryReel = () => {
      />
       <Story
     img={images[3]}
-    title={"kawan_id"}
+    title={"Aram-id"}
      />
       <Story
     img={images[4]}
-    title={"kawan_id"}
+    title={"yusf-id"}
      />
      
 
      <Story
     img={images[5]}
-    title={"Milad_id"}
+    title={"Naly-id"}
      />
 
     <Story
     img={images[6]}
+    title={"Hewr-id"}
+     />
+
+    <Story
+    img={images[0]}
+    title={"kawan_id"}
+     />
+     
+
+     <Story
+    img={images[1]}
+    title={"Milad_id"}
+     />
+
+    <Story
+    img={images[2]}
     title={"Hana-id"}
      />
 
+<Story
+    img={images[0]}
+    title={"kawan_id"}
+     />
+     
+
+     <Story
+    img={images[1]}
+    title={"Milad_id"}
+     />
+
+    <Story
+    img={images[2]}
+    title={"Hana-id"}
+     />
+      <Story
+    img={images[3]}
+    title={"Aram-id"}
+     />
+      <Story
+    img={images[4]}
+    title={"yusf-id"}
+     />
+     
+
+
+    
+
+    
      
 
     
