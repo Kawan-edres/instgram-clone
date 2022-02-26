@@ -1,8 +1,16 @@
 import React from 'react'
+import ProfileDetails from "./ProfileDetails"
 
 const MyProfile = () => {
   return (
-    <div>MyProfile</div>
+    <>
+    {/* top */}
+    <div>
+      <ProfileDetails />
+    </div>
+    {/* Bottom */}
+    <div>Profile</div>
+  </>
   )
 }
 

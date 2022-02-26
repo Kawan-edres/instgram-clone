@@ -2,14 +2,12 @@ import { ReactComponent as Profile } from "../Assets/icons/profile/profile.svg";
 import { ReactComponent as Saved } from "../Assets/icons/profile/saved.svg";
 import { ReactComponent as Setting } from "../Assets/icons/profile/setting.svg";
 import { ReactComponent as Switch } from "../Assets/icons/profile/switch.svg";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
 import ProfileNavItems from "./ProfileNavItems";
 
 
 
 
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import { navActions } from '../store/navSlice'
 
 function ProfileNav() {

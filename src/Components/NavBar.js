@@ -61,9 +61,10 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
       {iconName==="explore" && !match &&<ExploreO className="fill-black" />}
       {iconName==="explore" && match &&<ExploreF className="fill-black" />}
 
+      
       {iconName==="notifications" && !match &&<NotificationsO className="fill-black" />}
       {iconName==="notifications" && match &&<NotificationsF className="fill-black" />}
-
+      
 
   
     </div>
@@ -74,13 +75,15 @@ const NavBar = ({to,iconName,badge,dot,imgSrc}) => {
     <div>
     { isNavOpen && <ProfileNav />}
     <button  to={to} onClick={navHandler} className='h-[22px] px-3 relative overflow-visible   '>
-        <div className=' '>            
+        <div className=''>            
             {<Avatar src={images[0]} sx={{ width: 26, height: 26 }} className=' overflow-hidden'/>}
 
         </div>
     </button>
     </div>
   }
+
+ 
     </>
 
     );

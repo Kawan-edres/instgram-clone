@@ -3,7 +3,7 @@ import Notifications from "../Pages/Notifications";
 import Home from "../Pages/Home";
 import Inbox from "../Pages/Inbox";
 import Posts from "../Pages/Posts";
-import { Routes, Route,  useLocation } from "react-router-dom";
+import { Routes, Route,  useLocation,Navigate } from "react-router-dom";
 import MyProfile from "./MyProfile";
 import New from "./New";
 
@@ -14,13 +14,15 @@ const Main = () => {
     
       <main className="h-screen max-w-[1000px] mx-auto mt-16     ">
           <Routes location={location}>
-            <Route path="/home" element={<Home />}></Route>
-            <Route path="/inbox" element={<Inbox />}></Route>
-            <Route path="/create/posts" element={<Posts />}></Route>
-            <Route path="/explore" element={<Explore />}></Route>
-            <Route path="/notifications" element={<Notifications />}></Route>
-            <Route path="/myprofile" element={<MyProfile />}></Route>
-            <Route path="/new" element={<New />}></Route>
+
+            <Route path="/" element={<Navigate to="/home" />}/>
+            <Route path="/home" element={<Home />}/>
+            <Route path="/inbox" element={<Inbox />}/>
+            <Route path="/create/posts" element={<Posts />}/>
+            <Route path="/explore" element={<Explore />}/>
+            <Route path="/notifications" element={<Notifications />}/>
+            <Route path="/myprofile" element={<MyProfile />}/>
+            <Route path="/new" element={<New />}/>
 
 
           </Routes>

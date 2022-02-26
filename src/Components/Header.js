@@ -23,7 +23,7 @@ const Header = () => {
       </form>
       
       <div className="flex h-8 w-96 ">
-      <NavBar exact to="/home" iconName="home"   />
+      <NavBar exact to="/home" iconName="home" dot   />
       <NavBar exact to="/inbox" iconName="inbox" badge={7} />
       <NavBar exact to="/create/posts" iconName="posts"  />
       <NavBar exact to="/explore" iconName="explore"   />
