@@ -13,7 +13,7 @@ const Favourites = () => {
 
   <>
    <div onClick={handl} className='fixed top-0 left-0 right-0 bottom-0 bg-black/40 z-[10]'></div>
-  <div className=' fixed right-[35rem] w-[450px] h-[400px] bg-white z-[1000] flex-col overflow-y-scroll'>
+  <div className=' fixed right-[35rem] rounded-lg w-[450px] h-[400px] bg-white z-[1000] flex-col overflow-y-scroll'>
    
    <div className='p-2 font-semibold'>This Month</div>
    <div className='flex justify-between items-center'><InboxItems img={images[0]} /><img className=' mr-3 h-[40px] w-[40px]' src={images[1]} alt="" /></div>

@@ -6,7 +6,7 @@ import Posts from "../Components/Posts";
 
 const Home = () => {
   return (
-    <section className="w-full h-screen flex  ">
+    <section className="w-full h-screen flex   ">
 
         {/* Left */}
       <div className="w-[65rem] mt-8 ">

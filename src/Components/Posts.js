@@ -5,7 +5,7 @@ import images from "./Images";
 
 const Posts = () => {
   return (
-    <div>
+    <div className='thousnd:!mx-auto'>
 
         <Post avatar={images[0]} title="Kawan Idrees" img="https://scontent.febl5-1.fna.fbcdn.net/v/t39.30808-6/274523625_2095227117325000_8966097204756000896_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeG3pF_87BNzk_-dQ0kDC_NJ9YeP0QXyoeb1h4_RBfKh5tCkzCSev_e7ZMpR_dGWUrl4GB7JaH8qtRInbsuxDKIn&_nc_ohc=lqIO0sWu4zUAX-fIv4h&tn=ZXZcWFGiRQblqxr5&_nc_ht=scontent.febl5-1.fna&oh=00_AT9qfY2z7MN7IMQhaha_JYIMYEijeiE6SbSQbkAM-jlEKw&oe=621C5073"/>
         <Post avatar={images[4]} title="Yusf Jasm" img="https://scontent.febl5-1.fna.fbcdn.net/v/t39.30808-6/274674563_4656680457774333_2577902269419803191_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHvZPES1Rp_Rm8cY2aenFcHjtaoIaFXsgWO1qghoVeyBa14wLSnVQDbc0Ds2eWLn3YEmfrGeiX2ketAibWQzmC_&_nc_ohc=VEi-ziU0rE4AX_iogMP&_nc_ht=scontent.febl5-1.fna&oh=00_AT9mSFooaRABRLTiDJ01MZLeExgfh7RD7qMvH8_Ih-o3lA&oe=621B4C5C"/>

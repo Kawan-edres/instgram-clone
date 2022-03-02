@@ -5,7 +5,7 @@ import {ReactComponent as Spin} from "../Assets/icons/spin.svg";
 
 const ProfileDetails = () => {
   return (
-    <div className='flex items-center  mt-[10%] border-b border-mGray'>
+    <div className='flex items-center  mt-[10%]  '>
     <Avatar className='ml-16' sx={{ width: 150, height: 150 }} src={images[0]} />
 
 {/* left */}

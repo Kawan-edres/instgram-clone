@@ -23,7 +23,7 @@ const Post = ({img,avatar ,title}) => {
 
   console.log(heartClick);
   return (
-    <div className="flex flex-col w-[38rem] mt-10 h-auto border-gray border  ">
+    <div className="flex flex-col w-[38rem] mt-10 h-auto border-gray border thousnd:!mx-auto  ">
       {/* top */}
       <div className="flex justify-between h-16 items-center border-gray border">
         <div className="flex items-center ml-3">

@@ -32,6 +32,8 @@ function ProfileNav() {
         <div className="flex flex-col rounded-lg absolute z-10  mt-10 h-auto w-60 bg-white border-gray border shadow-lg
          translate-x-[-180px] cursor-pointer">
 
+
+
          {arr.map(item=>{
              return<ProfileNavItems text={item.text} icon={item.icon}/>
 

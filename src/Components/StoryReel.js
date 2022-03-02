@@ -13,7 +13,10 @@ const StoryReel = () => {
    
     
    
-  <div   className=' shadow-story cursor-pointer border-gray border shadow-lg h-[7.5] w-[38rem] flex  items-center overflow-x-scroll thousnd:ml-10  '>
+  <div   className=' shadow-story cursor-pointer
+   border-gray border shadow-lg h-[7.5] w-[38rem] flex
+    items-center overflow-x-scroll thousnd:ml-10
+    thousnd:!mx-auto  '>
   
 
     <Story
