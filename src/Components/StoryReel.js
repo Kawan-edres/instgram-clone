@@ -58,6 +58,34 @@ const StoryReel = () => {
     img={images[0]}
     title={"kawan_id"}
      />
+     <Story
+    img={images[5]}
+    title={"Naly-id"}
+     />
+
+    <Story
+    img={images[6]}
+    title={"Hewr-id"}
+     />
+
+    <Story
+    img={images[0]}
+    title={"kawan_id"}
+     />
+     <Story
+    img={images[5]}
+    title={"Naly-id"}
+     />
+
+    <Story
+    img={images[6]}
+    title={"Hewr-id"}
+     />
+
+    <Story
+    img={images[0]}
+    title={"kawan_id"}
+     />
      
 
      <Story
@@ -70,7 +98,22 @@ const StoryReel = () => {
     title={"Hana-id"}
      />
 
-<Story
+    <Story
+    img={images[0]}
+    title={"kawan_id"}
+     />
+     
+
+     <Story
+    img={images[1]}
+    title={"Milad_id"}
+     />
+
+    <Story
+    img={images[2]}
+    title={"Hana-id"}
+     />
+      <Story
     img={images[0]}
     title={"kawan_id"}
      />

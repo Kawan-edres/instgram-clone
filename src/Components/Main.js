@@ -3,14 +3,14 @@ import Notifications from "../Pages/Notifications";
 import Home from "../Pages/Home";
 import Inbox from "../Pages/Inbox";
 import Posts from "../Pages/Posts";
-import { Routes, Route, useLocation, Navigate,useNavigate } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate} from "react-router-dom";
 import MyProfile from "./MyProfile";
 import New from "./New";
 
 
 const Main = () => {
   let location = useLocation();
-  const home=useNavigate("/home");
+  
 
   return (
     <main className="h-screen max-w-[1000px] mx-auto mt-16     ">
