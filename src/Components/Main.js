@@ -15,7 +15,7 @@ const Main = () => {
   return (
     <main className="h-screen max-w-[1000px] mx-auto mt-16     ">
       <Routes location={location}>
-        <Route path="/instgram-clone" element={<Navigate to="/home" />} />
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/inbox" element={<Inbox />} />
         <Route path="/create/posts" element={<Posts />} />
