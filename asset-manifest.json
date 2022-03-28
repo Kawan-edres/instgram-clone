@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/instgram-clone/static/css/main.8eba2590.css",
-    "main.js": "/instgram-clone/static/js/main.f75b47df.js",
+    "main.js": "/instgram-clone/static/js/main.3408a6b1.js",
     "static/js/787.9d576594.chunk.js": "/instgram-clone/static/js/787.9d576594.chunk.js",
     "static/media/milad.jpg": "/instgram-clone/static/media/milad.1916808ebfcab9872a7a.jpg",
     "static/media/hewr.jpg": "/instgram-clone/static/media/hewr.89662737e7ae741beccc.jpg",
@@ -42,11 +42,11 @@
     "static/media/comment.svg": "/instgram-clone/static/media/comment.61ed6686146d03eaaf8b438e8902da3b.svg",
     "static/media/more.svg": "/instgram-clone/static/media/more.1ebe6d090429fc18e37df77b98c660f1.svg",
     "main.8eba2590.css.map": "/instgram-clone/static/css/main.8eba2590.css.map",
-    "main.f75b47df.js.map": "/instgram-clone/static/js/main.f75b47df.js.map",
+    "main.3408a6b1.js.map": "/instgram-clone/static/js/main.3408a6b1.js.map",
     "787.9d576594.chunk.js.map": "/instgram-clone/static/js/787.9d576594.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eba2590.css",
-    "static/js/main.f75b47df.js"
+    "static/js/main.3408a6b1.js"
   ]
 }
